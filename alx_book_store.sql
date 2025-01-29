@@ -1,3 +1,8 @@
+ -- create the alx database
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+-- use the database
+USE alx_book_store;
+-- create the tables
 CREATE TABLE Authors (
     author_id INT PRIMARY KEY AUTO_INCREMENT,
     author_name VARCHAR(215) NOT NULL
